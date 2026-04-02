@@ -1,6 +1,6 @@
 ---
 name: adr
-description: 直前のやり取りからアーキテクチャの決定理由を記録するADR（Architecture Decision Record）を作成する
+description: 直前のやり取りからアーキテクチャの決定理由を記録するADR（Architecture Decision Record）を作成する。アーキテクチャの相談・技術選定の議論後に実装が完了した場合や、設計判断の記録を残したい場合に自動で呼び出す。「なぜこの技術を選んだか」「どの設計パターンを採用したか」「インフラ構成をどう決めたか」等の意思決定が会話に含まれていれば、このSKILLで記録を残す。
 argument-hint: [追加指示(省略可) 例: "ステータスをAcceptedにして" "参加者に@tanaka(テックリード)を追加して"]
 allowed-tools: Bash, Read, Write, Glob, Grep
 ---
